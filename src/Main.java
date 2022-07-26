@@ -27,8 +27,8 @@ public class Main {
         } else {
             System.out.println("You are incorrect. The correct answer is: " + choiceTwo);
         }
+        
         // then the user is correct and we want to print out a congrats message to the user.
-
         // If the user's input does not match the correctAnswer...
         // then the user is incorrect and we want to print out a message saying that the user is incorrect as well as what the correct choice was..
 
