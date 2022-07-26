@@ -3,9 +3,9 @@ public class Main {
 
     public static void main(String args[]) {
         String question = "What is the largest planet of the Solar System?";
-        String choiceOne = "Earth";
-        String choiceTwo = "Jupiter";
-        String choiceThree = "Saturn";
+        String choiceOne = "earth";
+        String choiceTwo = "jupiter";
+        String choiceThree = "saturn";
 
         String correctAnswer = choiceTwo;
 
@@ -22,7 +22,7 @@ public class Main {
         String input = scanner.next();
 
         // If the user's input matches the correctAnswer...
-        if(correctAnswer.equals(input)) {
+        if(correctAnswer.equals(input.toLowerCase()) {
             System.out.println("Congratulations! You are correct!");
         } else {
             System.out.println("You are incorrect. The correct answer is: " + choiceTwo);
